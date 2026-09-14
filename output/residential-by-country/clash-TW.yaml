@@ -12,7 +12,7 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  server: 118.167.209.5
+  server: hinet1.2yly.com
   port: 24215
   udp: true
   type: vless
