@@ -5,18 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: 207.148.112.220
-  port: 443
+  server: 210.152.85.154
+  port: 19364
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
   servername: cdn8848.776676.xyz
   skip-cert-verify: false
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /discuss?ed=2560
+    path: /collect/user/products?ed=2560
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
