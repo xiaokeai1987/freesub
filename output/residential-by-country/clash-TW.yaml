@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  server: 7dba81fc3a0b.oylfmxz.cn
+  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
   port: 443
   udp: true
   type: vmess
@@ -13,7 +13,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  servername: 7dba81fc3a0b.oylfmxz.cn
+  servername: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
   skip-cert-verify: false
   network: ws
   ws-opts:
