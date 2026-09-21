@@ -5,26 +5,23 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
-      "server": "46.243.142.227",
-      "server_port": 10443,
-      "uuid": "a85ddf9f-329b-4c31-a80a-cd0f2e5b2a30",
+      "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe",
+      "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
+      "server_port": 48737,
+      "uuid": "17ab31f7-c021-4aec-83b2-ab48de8886bd",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "shprcdn.quest",
+        "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "KoNQ52irUOW-fybKx-gUKCuHpMnHhgQ_skjd8TmqJ2k",
-          "short_id": ""
+          "public_key": "GnLh9Cc0jj9BMW81u6stEYKe1xu6pf8DDpXHI9AmvFk",
+          "short_id": "545525c503fd5b"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "google.storage.v2.Storage"
       }
     },
     {
@@ -32,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
