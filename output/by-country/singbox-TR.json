@@ -6,9 +6,9 @@
     {
       "type": "vmess",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "78.135.77.91",
-      "server_port": 25020,
-      "uuid": "nitro_teeam@",
+      "server": "206.1.97.212",
+      "server_port": 28351,
+      "uuid": "Nitro_Skybot@",
       "security": "auto",
       "transport": {
         "type": "ws"
