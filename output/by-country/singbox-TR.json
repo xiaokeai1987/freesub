@@ -4,14 +4,23 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "206.1.97.212",
-      "server_port": 28351,
-      "uuid": "Nitro_Skybot@",
-      "security": "auto",
-      "transport": {
-        "type": "ws"
+      "server": "185.71.219.128",
+      "server_port": 2052,
+      "uuid": "f4ade6db-3c64-4939-9f32-788b87a9392f",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.71.219.128",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
       }
     },
     {
