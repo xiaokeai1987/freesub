@@ -5,12 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
-      "server": "free.sahanwickramasinghe.me",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.25.244.62",
       "server_port": 80,
-      "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
+      "uuid": "3076f0f0-558c-cbb3-0570-ca4200000014",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/sync",
+        "headers": {
+          "Host": "abolfazl-1.danayyabwalfdl6.workers.dev"
+        }
       }
     },
     {
@@ -18,14 +22,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
