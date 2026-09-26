@@ -5,16 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.25.244.62
-  port: 80
+  server: 104.16.174.164
+  port: 443
   udp: true
   type: vless
-  uuid: 3076f0f0-558c-cbb3-0570-ca4200000014
+  uuid: 73796e63-0000-4000-8000-000000000000
+  tls: true
+  servername: wireguard.ahmad-kh5716.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /sync
     headers:
-      Host: abolfazl-1.danayyabwalfdl6.workers.dev
+      Host: wireguard.ahmad-kh5716.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

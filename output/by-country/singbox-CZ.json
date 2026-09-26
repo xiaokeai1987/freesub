@@ -6,12 +6,23 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "172.64.149.54",
+      "server": "194.87.59.26",
+      "server_port": 2085,
+      "uuid": "720814fb-e38e-4570-97a7-c5df60352d37",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
+      "server": "104.17.147.22",
       "server_port": 443,
-      "uuid": "fe34b5df-e634-4c83-a057-e53f41ce8e27",
+      "uuid": "8a36be1d-7c78-4885-8a1f-bedf5ba7db1c",
       "tls": {
         "enabled": true,
-        "server_name": "lATE-LaB-d6A2.CIwodA8715.WoRKerS.DeV",
+        "server_name": "luCky-LAB-AC6D.CAveyi8071.WoRkeRS.DEV",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +31,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiQ3dmV1d4OUFQdSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "path": "/rN50nmm9L1DeY73C?ed",
         "headers": {
-          "Host": "late-lab-d6a2.ciwoda8715.workers.dev"
+          "Host": "luCky-LAB-AC6D.CAveyi8071.WoRkeRS.DEV"
         }
       }
     },
@@ -31,14 +42,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe",
+        "🇨🇿 捷克 (Czech) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe"
+        "🇨🇿 捷克 (Czech) 01 - xiaohe",
+        "🇨🇿 捷克 (Czech) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
